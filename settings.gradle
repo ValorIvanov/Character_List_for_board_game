@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Character_List_for_board_game"
