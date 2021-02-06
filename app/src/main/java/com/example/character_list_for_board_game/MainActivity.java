@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             final EditText etCharismTek = (EditText) findViewById(R.id.CharismTek);
             final EditText etMassiveNom = (EditText) findViewById(R.id.MassiveNom);
             final EditText etMassiveTek = (EditText) findViewById(R.id.MassiveTek);
-            final CheckBox etMagichnost = (CheckBox) findViewById(R.id.textMagichnost);
+
 
             Button btnSave = (Button) findViewById(R.id.buttonSave);
             Button btnClear = (Button) findViewById(R.id.buttonClear);
@@ -79,8 +79,6 @@ public class MainActivity extends AppCompatActivity {
 
                     SharedPreferences sharedPreferences=getSharedPreferences("shared", 0);
                     SharedPreferences.Editor editor1 =sharedPreferences.edit();
-                    editor1.putBoolean("checkboxMagichnost", etMagichnost.isChecked());
-                    editor1.commit();
                     editor.apply();
                     Toast.makeText(MainActivity.this, "Saved successful",Toast.LENGTH_SHORT).show();
                 }
@@ -107,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                     etMassiveTek.setText(String.valueOf(settings.getInt("MassiveTek",0)));
 
                     SharedPreferences sharedPreferences= getSharedPreferences("shared", 0);
-                    etMagichnost.setChecked(sharedPreferences.getBoolean("checkboxMagichnost", false));
+
                 }
             });
 
@@ -130,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
                     etMassiveTek.setText("0");
 
                     SharedPreferences sharedPreferences= getSharedPreferences("shared", 0);
-                    etMagichnost.setChecked(false);
+
                 }
             });
 

@@ -96,25 +96,6 @@
                             android:layout_weight="2"
                             android:hint="Раса"
                             android:textSize="10dp" />
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_weight="2">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="1"
-                                android:hint="Магичность"
-                                android:textColor="@color/black"
-                                android:textSize="10dp" />
-                            <CheckBox
-                                android:id="@+id/textMagichnost"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_weight="3"/>
-                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -127,7 +108,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center_horizontal|top"
                         android:layout_weight="1"
                         android:background="@color/black"
                         android:text="@string/coloumTitleParam"
@@ -137,6 +118,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
                         android:text="@string/mightText"
                         android:textColor="@color/black" />
 
@@ -144,6 +126,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
                         android:text="@string/reactionText"
                         android:textColor="@color/black" />
 
@@ -151,6 +134,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
                         android:text="@string/mentalMightText"
                         android:textColor="@color/black" />
 
@@ -158,6 +142,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
                         android:text="@string/concentrationText"
                         android:textColor="@color/black" />
 
@@ -165,6 +150,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
                         android:text="@string/charisnText"
                         android:textColor="@color/black" />
 
@@ -172,6 +158,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
                         android:text="@string/massiveText"
                         android:textColor="@color/black" />
 
@@ -186,7 +173,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center_horizontal|top"
                         android:layout_weight="1"
                         android:background="@color/black"
                         android:text="@string/coloumTitleNominal"
@@ -197,7 +184,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -205,7 +193,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -213,7 +202,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -221,7 +211,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -229,7 +220,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -237,7 +229,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                 </LinearLayout>
@@ -250,7 +243,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center_horizontal|top"
                         android:layout_weight="1"
                         android:background="@color/black"
                         android:text="@string/coloumTitleTekushee"
@@ -261,7 +254,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -269,7 +263,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -277,7 +272,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -285,7 +281,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -293,7 +290,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                     <EditText
@@ -301,12 +299,238 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:text="0"
+                        android:gravity="center_horizontal|top"
+                        android:hint="0"
                         android:textSize="18dp" />
 
                 </LinearLayout>
-            </LinearLayout>
 
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/CharPokazBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:text="Показатели"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/FizEstat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/MentEstat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/Starvation"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="@string/Tiredness"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:text="@string/Tiajolaia"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/FizEstH"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp"  />
+
+                    <TextView
+                        android:id="@+id/MentEstH"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp"  />
+
+                    <TextView
+                        android:id="@+id/StarvationH"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp"  />
+
+                    <TextView
+                        android:id="@+id/TirednessH"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp"  />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:text="@string/Sredniaya"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/FizEstM"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/MentEstM"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/StarvationM"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/TirednessM"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:text="@string/Liogkaya"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/FizEstL"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/MentEstL"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/StarvationL"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/TirednessL"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal|top"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
             <LinearLayout
                 android:id="@+id/DiceRollBar"
                 android:layout_width="match_parent"

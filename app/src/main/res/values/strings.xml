@@ -9,4 +9,11 @@
     <string name="coloumTitleParam">Параметр</string>
     <string name="coloumTitleNominal">Номинал</string>
     <string name="coloumTitleTekushee">Текущее</string>
+    <string name="FizEstat">Физическое состояние</string>
+    <string name="MentEstat">Ментальное состояние</string>
+    <string name="Starvation">Сытость</string>
+    <string name="Tiredness">Бодрость</string>
+    <string name="Tiajolaia">Т</string>
+    <string name="Sredniaya">С</string>
+    <string name="Liogkaya">Л</string>
 </resources>
